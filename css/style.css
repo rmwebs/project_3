@@ -1,0 +1,169 @@
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --primary: #14a2d2;
+  --secondery: #232940;
+  --light: #f9f8fe;
+  --hover: #555555;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #232940;
+  margin: 0;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #9090a0;
+  margin: 0;
+}
+
+.button_1 {
+  padding: 15px 25px;
+  font-weight: 600;
+  background: var(--primary);
+  color: #fff;
+  border: 2px solid #fff;
+  display: inline-block;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.button_1:hover {
+  color: #fff;
+  background: var(--secondery);
+}
+
+.button_2 {
+  padding: 15px 25px;
+  font-weight: 600;
+  background: #fff;
+  color: #232940;
+  border: 2px solid #fff;
+  display: inline-block;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.button_2:hover {
+  color: #fff;
+  background: transparent;
+}
+
+.button_3 {
+  padding: 15px 25px;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #fff;
+  display: inline-block;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.button_3:hover {
+  color: #232940;
+  background: #fff;
+}
+
+/* common css end */
+/* navbar css start */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.bg {
+  background: rgba(35, 41, 64, 0.85);
+}
+
+.navbar .navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.navbar .navbar-brand span {
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* navbar css end */
